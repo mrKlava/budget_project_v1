@@ -1,0 +1,137 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+dump.rdb
+
+
+### CLIENT
+
+# dependencies
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+
+# testing
+/client//coverage
+
+# production
+/client/build
+
+# misc
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+### SERVER
+
+/server/__pycache__
+/server/__instance__
+/server/venv
+/server/.env
+/server/dump.rdb
+
+
+# Byte-compiled / optimized / DLL files
+/server/__pycache__/
+/server/*.py[cod]
+/server/*$py.class
+
+# C extensions
+/server/*.so
+
+# Distribution / packaging
+/server/.Python
+/server/build/
+/server/develop-eggs/
+/server/dist/
+/server/downloads/
+/server/eggs/
+/server/.eggs/
+/server/lib/
+/server/lib64/
+/server/parts/
+/server/sdist/
+/server/var/
+/server/wheels/
+/server/*.egg-info/
+/server/.installed.cfg
+/server/*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+/server/*.manifest
+/server/*.spec
+
+# Installer logs
+/server/pip-log.txt
+/server/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+/server/htmlcov/
+/server/.tox/
+/server/.coverage
+/server/.coverage.*
+/server/.cache
+/server/nosetests.xml
+/server/coverage.xml
+/server/*.cover
+/server/.hypothesis/
+
+# Translations
+/server/*.mo
+/server/*.pot
+
+# Django stuff:
+/server/*.log
+/server/local_settings.py
+
+# Flask stuff:
+/server/instance/
+/server/.webassets-cache
+
+# Scrapy stuff:
+/server/.scrapy
+
+# Sphinx documentation
+/server/docs/_build/
+
+# PyBuilder
+/server/target/
+
+# Jupyter Notebook
+/server/.ipynb_checkpoints
+
+# pyenv
+/server/.python-version
+
+# celery beat schedule file
+/server/celerybeat-schedule
+
+# SageMath parsed files
+/server/*.sage.py
+
+# Environments
+/server/.env
+/server/.venv
+/server/env/
+/server/venv/
+/server/ENV/
+
+# Spyder project settings
+/server/.spyderproject
+/server/.spyproject
+
+# Rope project settings
+/server/.ropeproject
+
+# mkdocs documentation
+/server/site
+
+# mypy
+/server/.mypy_cache/
