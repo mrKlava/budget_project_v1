@@ -29,12 +29,7 @@ dump.rdb
 
 ### SERVER
 
-/server/__pycache__
-/server/__instance__
-/server/venv
-/server/.env
 /server/dump.rdb
-
 
 # Byte-compiled / optimized / DLL files
 /server/__pycache__/
